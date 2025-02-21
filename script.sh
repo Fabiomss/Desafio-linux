@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo yum update -y
-sudo yum upgrade -y
 sudo yum install httpd -y
 sudo yum install git -y
 git clone https://raw.githubusercontent.com/Fabiomss/Desafio-linux/refs/heads/main/script.sh  /var/www/html/desafio-linux
