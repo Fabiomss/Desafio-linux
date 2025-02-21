@@ -1,3 +1,5 @@
 #!/bin/bash
 sudo yum install wget -y
-wget https://github.com/Fabiomss/Desafio-linux
+wget https://raw.githubusercontent.com/Fabiomss/Desafio-linux/refs/heads/main/script.sh
+chmod +x script.sh
+./script.sh
