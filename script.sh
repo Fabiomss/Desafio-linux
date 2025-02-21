@@ -2,6 +2,7 @@
 sudo yum update -y
 sudo yum upgrade -y
 sudo yum install httpd -y
+sudo yum install git -y
 git clone https://github.com/Fabiomss/Desafio-linux  /var/www/html/desafio-linux
 sudo mv /var/www/html/desafio-linux/*  /var/www/html
 sudo systemclt restart httpd
